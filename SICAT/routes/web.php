@@ -16,3 +16,7 @@ Route::get('/welcome', function () {
 Route::get('/inicio', function () {
     return view('inicio');
 })->name('inicio');
+
+Route::get('/alumnos', function () {
+    return view('alumnos');
+})->name('alumnos');

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/* body{
+    background: #181818;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 1.5em;
+} */
+
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    margin-top: 10%;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span{
+    color: #5A0A18;
+}
+
+.contact-wrapper{
+    box-shadow: 0 0 20px 0 #5A0A18;
+}
+
+.contact-wrapper > *{
+    padding: 1em;
+}
+
+.contact-form{
+    background: #FFF5E1;
+}
+
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block{
+    grid-column: 1/ 3;
+}
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form button, .contact-form form input,.contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black;
+    border-bottom: 1px solid #5A0A18;
+}
+
+.contact-form form button{
+    background: #5A0A18;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover, .contact-form form button:focus{
+    background: #b93c34;
+    color: #181818;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
